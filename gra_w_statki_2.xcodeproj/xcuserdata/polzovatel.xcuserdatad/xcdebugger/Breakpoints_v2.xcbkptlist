@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/ViewController.swift"
+            timestampString = "535244494.316178"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gra_w_statki_2.ViewController.__deallocating_deinit"
+                  moduleName = "gra_w_statki_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polzovatel/Documents/gra_w_statki_2/gra_w_statki_2/ViewController.swift"
+                  timestampString = "535142140.834542"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gra_w_statki_2.ViewController.__allocating_init(nibName: Swift.Optional&lt;__ObjC.NSNib.Name&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; gra_w_statki_2.ViewController"
+                  moduleName = "gra_w_statki_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polzovatel/Documents/gra_w_statki_2/gra_w_statki_2/ViewController.swift"
+                  timestampString = "535142140.83795"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gra_w_statki_2.ViewController.init(nibName: Swift.Optional&lt;__ObjC.NSNib.Name&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; gra_w_statki_2.ViewController"
+                  moduleName = "gra_w_statki_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polzovatel/Documents/gra_w_statki_2/gra_w_statki_2/ViewController.swift"
+                  timestampString = "535142140.842206"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gra_w_statki_2.ViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;gra_w_statki_2.ViewController&gt;"
+                  moduleName = "gra_w_statki_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polzovatel/Documents/gra_w_statki_2/gra_w_statki_2/ViewController.swift"
+                  timestampString = "535142140.846164"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gra_w_statki_2.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;gra_w_statki_2.ViewController&gt;"
+                  moduleName = "gra_w_statki_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polzovatel/Documents/gra_w_statki_2/gra_w_statki_2/ViewController.swift"
+                  timestampString = "535142140.849927"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Boat.swift"
+            timestampString = "535143541.097959"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "Cell"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "535244494.316455"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "setCellButton(coordX:coordY:__button:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "535244494.317483"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "isBoatNear(coordX:coordY:CoordName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
