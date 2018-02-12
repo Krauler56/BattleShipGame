@@ -7,226 +7,64 @@
 //
 
 import Cocoa
-
+let player1_board : Board  = Board()
+let player2_board : Board  = Board()
+var isPlayer1Turn:Bool = false
+var isPlayer2Turn:Bool = false
+var isGameStarted:Bool = false
+var randomHelperArray:[[Bool]] = Array(repeating: Array(repeating: false, count: 10), count: 10)
 class ViewController: NSViewController {
     
+    @IBOutlet weak var informationLabelOutlet: NSTextField!
+    @IBOutlet weak var start_button_outlet: NSButton!
     var step :Int=0
-    @IBOutlet  var button0x0: NSButton!
-    @IBOutlet  var button0x1: NSButton!
-    @IBOutlet  var button0x2: NSButton!
-    @IBOutlet  var button0x3: NSButton!
-    @IBOutlet  var button0x4: NSButton!
-    @IBOutlet var button0x5: NSButton!
-    @IBOutlet var button0x6: NSButton!
-    @IBOutlet var button0x7: NSButton!
-    @IBOutlet var button0x8: NSButton!
-    @IBOutlet var button0x9: NSButton!
-    @IBOutlet var button1x0: NSButton!
-    @IBOutlet var button1x1: NSButton!
-    @IBOutlet var button1x2: NSButton!
-    @IBOutlet var button1x3: NSButton!
-    @IBOutlet var button1x4: NSButton!
-    @IBOutlet var button1x5: NSButton!
-    @IBOutlet var button1x6: NSButton!
-    @IBOutlet var button1x7: NSButton!
-    @IBOutlet var button1x8: NSButton!
-    @IBOutlet var button1x9: NSButton!
-    @IBOutlet var button2x0: NSButton!
-    @IBOutlet var button2x1: NSButton!
-    @IBOutlet var button2x2: NSButton!
-    @IBOutlet var button2x3: NSButton!
-    @IBOutlet var button2x4: NSButton!
-    @IBOutlet var button2x5: NSButton!
-    @IBOutlet var button2x6: NSButton!
-    @IBOutlet var button2x7: NSButton!
-    @IBOutlet var button2x8: NSButton!
-    @IBOutlet var button2x9: NSButton!
-    @IBOutlet var button3x0: NSButton!
-    @IBOutlet var button3x1: NSButton!
-    @IBOutlet var button3x2: NSButton!
-    @IBOutlet var button3x3: NSButton!
-    @IBOutlet var button3x4: NSButton!
-    @IBOutlet var button3x5: NSButton!
-    @IBOutlet var button3x6: NSButton!
-    @IBOutlet var button3x7: NSButton!
-    @IBOutlet var button3x8: NSButton!
-    @IBOutlet var button3x9: NSButton!
-    @IBOutlet var button4x0: NSButton!
-    @IBOutlet var button4x1: NSButton!
-    @IBOutlet var button4x2: NSButton!
-    @IBOutlet var button4x3: NSButton!
-    @IBOutlet var button4x4: NSButton!
-    @IBOutlet var button4x5: NSButton!
-    @IBOutlet var button4x6: NSButton!
-    @IBOutlet var button4x7: NSButton!
-    @IBOutlet var button4x8: NSButton!
-    @IBOutlet var button4x9: NSButton!
-    @IBOutlet var button5x0: NSButton!
-    @IBOutlet var button5x1: NSButton!
-    @IBOutlet var button5x2: NSButton!
-    @IBOutlet var button5x3: NSButton!
-    @IBOutlet var button5x4: NSButton!
-    @IBOutlet var button5x5: NSButton!
-    @IBOutlet var button5x6: NSButton!
-    @IBOutlet var button5x7: NSButton!
-    @IBOutlet var button5x8: NSButton!
-    @IBOutlet var button5x9: NSButton!
-    @IBOutlet var button6x0: NSButton!
-    @IBOutlet var button6x1: NSButton!
-    @IBOutlet var button6x2: NSButton!
-    @IBOutlet var button6x3: NSButton!
-    @IBOutlet var button6x4: NSButton!
-    @IBOutlet var button6x5: NSButton!
-    @IBOutlet var button6x6: NSButton!
-    @IBOutlet var button6x7: NSButton!
-    @IBOutlet var button6x8: NSButton!
-    @IBOutlet var button6x9: NSButton!
-    @IBOutlet var button7x0: NSButton!
-    @IBOutlet var button7x1: NSButton!
-    @IBOutlet var button7x2: NSButton!
-    @IBOutlet var button7x3: NSButton!
-    @IBOutlet var button7x4: NSButton!
-    @IBOutlet var button7x5: NSButton!
-    @IBOutlet var button7x6: NSButton!
-    @IBOutlet var button7x7: NSButton!
-    @IBOutlet var button7x8: NSButton!
-    @IBOutlet var button7x9: NSButton!
-    @IBOutlet var button8x0: NSButton!
-    @IBOutlet var button8x1: NSButton!
-    @IBOutlet var button8x2: NSButton!
-    @IBOutlet var button8x3: NSButton!
-    @IBOutlet var button8x4: NSButton!
-    @IBOutlet var button8x5: NSButton!
-    @IBOutlet var button8x6: NSButton!
-    @IBOutlet var button8x7: NSButton!
-    @IBOutlet var button8x8: NSButton!
-    @IBOutlet var button8x9: NSButton!
-    @IBOutlet var button9x0: NSButton!
-    @IBOutlet var button9x1: NSButton!
-    @IBOutlet var button9x2: NSButton!
-    @IBOutlet var button9x3: NSButton!
-    @IBOutlet var button9x4: NSButton!
-    @IBOutlet var button9x5: NSButton!
-    @IBOutlet var button9x6: NSButton!
-    @IBOutlet var button9x7: NSButton!
-    @IBOutlet var button9x8: NSButton!
-    @IBOutlet var button9x9: NSButton!
-    let player1_board : Board  = Board()
-    
+    var button_array:[NSButton] = []
+    func createButton(playerBoard:Board,index:Int,_self:Bool)->Void
+    {
+        for i in 0...9{
+            for k in 0...9
+            {
+            
+                let button = NSButton(frame:NSRect(origin:CGPoint(x:i*30+index,y:k*30+300),size:CGSize(width:30,height:30)))
+               //  button_array.append(button)
+                //button.target=Game() as AnyObject
+                button.tag=i*10+k
+                self.view.addSubview(button)
+                if(_self){
+                button.action = #selector(Game)
+                }
+                else
+                {
+                    button.action = #selector(AttackButton)
+                    playerBoard.setCellIs2Player(coordX: i,coordY: k,_is: true)
+                }
+                playerBoard.setCellButton(coordX: i, coordY: k, __button: button)
+                playerBoard.setCellIsBoat(coordX: i, coordY: k,_isboat: false)
+                
+            }
+        }
+    }
     func inittializeCells()->Void
     {
         
     }
     @IBAction func start_button(_ sender: Any) {
-        player1_board.setCellButton(coordX: 0, coordY: 0, __button: button0x0)
-        player1_board.setCellButton(coordX: 0, coordY: 1, __button: button0x1)
-        player1_board.setCellButton(coordX: 0, coordY: 2, __button: button0x2)
-        player1_board.setCellButton(coordX: 0, coordY: 3, __button: button0x3)
-        player1_board.setCellButton(coordX: 0, coordY: 4, __button: button0x4)
-        player1_board.setCellButton(coordX: 0, coordY: 5, __button: button0x5)
-        player1_board.setCellButton(coordX: 0, coordY: 6, __button: button0x6)
-        player1_board.setCellButton(coordX: 0, coordY: 7, __button: button0x7)
-        player1_board.setCellButton(coordX: 0, coordY: 8, __button: button0x8)
-        player1_board.setCellButton(coordX: 0, coordY: 9, __button: button0x9)
-        player1_board.setCellButton(coordX: 1, coordY: 0, __button: button1x0)
-        player1_board.setCellButton(coordX: 1, coordY: 1, __button: button1x1)
-        player1_board.setCellButton(coordX: 1, coordY: 2, __button: button1x2)
-        player1_board.setCellButton(coordX: 1, coordY: 3, __button: button1x3)
-        player1_board.setCellButton(coordX: 1, coordY: 4, __button: button1x4)
-        player1_board.setCellButton(coordX: 1, coordY: 5, __button: button1x5)
-        player1_board.setCellButton(coordX: 1, coordY: 6, __button: button1x6)
-        player1_board.setCellButton(coordX: 1, coordY: 7, __button: button1x7)
-        player1_board.setCellButton(coordX: 1, coordY: 8, __button: button1x8)
-        player1_board.setCellButton(coordX: 1, coordY: 9, __button: button1x9)
-        player1_board.setCellButton(coordX: 2, coordY: 0, __button: button2x0)
-        player1_board.setCellButton(coordX: 2, coordY: 1, __button: button2x1)
-        player1_board.setCellButton(coordX: 2, coordY: 2, __button: button2x2)
-        player1_board.setCellButton(coordX: 2, coordY: 3, __button: button2x3)
-        player1_board.setCellButton(coordX: 2, coordY: 4, __button: button2x4)
-        player1_board.setCellButton(coordX: 2, coordY: 5, __button: button2x5)
-        player1_board.setCellButton(coordX: 2, coordY: 6, __button: button2x6)
-        player1_board.setCellButton(coordX: 2, coordY: 7, __button: button2x7)
-        player1_board.setCellButton(coordX: 2, coordY: 8, __button: button2x8)
-        player1_board.setCellButton(coordX: 2, coordY: 9, __button: button2x9)
-        player1_board.setCellButton(coordX: 3, coordY: 0, __button: button3x0)
-        player1_board.setCellButton(coordX: 3, coordY: 1, __button: button3x1)
-        player1_board.setCellButton(coordX: 3, coordY: 2, __button: button3x2)
-        player1_board.setCellButton(coordX: 3, coordY: 3, __button: button3x3)
-        player1_board.setCellButton(coordX: 3, coordY: 4, __button: button3x4)
-        player1_board.setCellButton(coordX: 3, coordY: 5, __button: button3x5)
-        player1_board.setCellButton(coordX: 3, coordY: 6, __button: button3x6)
-        player1_board.setCellButton(coordX: 3, coordY: 7, __button: button3x7)
-        player1_board.setCellButton(coordX: 3, coordY: 8, __button: button3x8)
-        player1_board.setCellButton(coordX: 3, coordY: 9, __button: button3x9)
-        player1_board.setCellButton(coordX: 4, coordY: 0, __button: button4x0)
-        player1_board.setCellButton(coordX: 4, coordY: 1, __button: button4x1)
-        player1_board.setCellButton(coordX: 4, coordY: 2, __button: button4x2)
-        player1_board.setCellButton(coordX: 4, coordY: 3, __button: button4x3)
-        player1_board.setCellButton(coordX: 4, coordY: 4, __button: button4x4)
-        player1_board.setCellButton(coordX: 4, coordY: 5, __button: button4x5)
-        player1_board.setCellButton(coordX: 4, coordY: 6, __button: button4x6)
-        player1_board.setCellButton(coordX: 4, coordY: 7, __button: button4x7)
-        player1_board.setCellButton(coordX: 4, coordY: 8, __button: button4x8)
-        player1_board.setCellButton(coordX: 4, coordY: 9, __button: button4x9)
-        player1_board.setCellButton(coordX: 5, coordY: 0, __button: button5x0)
-        player1_board.setCellButton(coordX: 5, coordY: 1, __button: button5x1)
-        player1_board.setCellButton(coordX: 5, coordY: 2, __button: button5x2)
-        player1_board.setCellButton(coordX: 5, coordY: 3, __button: button5x3)
-        player1_board.setCellButton(coordX: 5, coordY: 4, __button: button5x4)
-        player1_board.setCellButton(coordX: 5, coordY: 5, __button: button5x5)
-        player1_board.setCellButton(coordX: 5, coordY: 6, __button: button5x6)
-        player1_board.setCellButton(coordX: 5, coordY: 7, __button: button5x7)
-        player1_board.setCellButton(coordX: 5, coordY: 8, __button: button5x8)
-        player1_board.setCellButton(coordX: 5, coordY: 9, __button: button5x9)
-        player1_board.setCellButton(coordX: 6, coordY: 0, __button: button6x0)
-        player1_board.setCellButton(coordX: 6, coordY: 1, __button: button6x1)
-        player1_board.setCellButton(coordX: 6, coordY: 2, __button: button6x2)
-        player1_board.setCellButton(coordX: 6, coordY: 3, __button: button6x3)
-        player1_board.setCellButton(coordX: 6, coordY: 4, __button: button6x4)
-        player1_board.setCellButton(coordX: 6, coordY: 5, __button: button6x5)
-        player1_board.setCellButton(coordX: 6, coordY: 6, __button: button6x6)
-        player1_board.setCellButton(coordX: 6, coordY: 7, __button: button6x7)
-        player1_board.setCellButton(coordX: 6, coordY: 8, __button: button6x8)
-        player1_board.setCellButton(coordX: 6, coordY: 9, __button: button6x9)
-        player1_board.setCellButton(coordX: 7, coordY: 0, __button: button7x0)
-        player1_board.setCellButton(coordX: 7, coordY: 1, __button: button7x1)
-        player1_board.setCellButton(coordX: 7, coordY: 2, __button: button7x2)
-        player1_board.setCellButton(coordX: 7, coordY: 3, __button: button7x3)
-        player1_board.setCellButton(coordX: 7, coordY: 4, __button: button7x4)
-        player1_board.setCellButton(coordX: 7, coordY: 5, __button: button7x5)
-        player1_board.setCellButton(coordX: 7, coordY: 6, __button: button7x6)
-        player1_board.setCellButton(coordX: 7, coordY: 7, __button: button7x7)
-        player1_board.setCellButton(coordX: 7, coordY: 8, __button: button7x8)
-        player1_board.setCellButton(coordX: 7, coordY: 9, __button: button7x9)
-        player1_board.setCellButton(coordX: 8, coordY: 0, __button: button8x0)
-        player1_board.setCellButton(coordX: 8, coordY: 1, __button: button8x1)
-        player1_board.setCellButton(coordX: 8, coordY: 2, __button: button8x2)
-        player1_board.setCellButton(coordX: 8, coordY: 3, __button: button8x3)
-        player1_board.setCellButton(coordX: 8, coordY: 4, __button: button8x4)
-        player1_board.setCellButton(coordX: 8, coordY: 5, __button: button8x5)
-        player1_board.setCellButton(coordX: 8, coordY: 6, __button: button8x6)
-        player1_board.setCellButton(coordX: 8, coordY: 7, __button: button8x7)
-        player1_board.setCellButton(coordX: 8, coordY: 8, __button: button8x8)
-        player1_board.setCellButton(coordX: 8, coordY: 9, __button: button8x9)
-        player1_board.setCellButton(coordX: 9, coordY: 0, __button: button9x0)
-        player1_board.setCellButton(coordX: 9, coordY: 1, __button: button9x1)
-        player1_board.setCellButton(coordX: 9, coordY: 2, __button: button9x2)
-        player1_board.setCellButton(coordX: 9, coordY: 3, __button: button9x3)
-        player1_board.setCellButton(coordX: 9, coordY: 4, __button: button9x4)
-        player1_board.setCellButton(coordX: 9, coordY: 5, __button: button9x5)
-        player1_board.setCellButton(coordX: 9, coordY: 6, __button: button9x6)
-        player1_board.setCellButton(coordX: 9, coordY: 7, __button: button9x7)
-        player1_board.setCellButton(coordX: 9, coordY: 8, __button: button9x8)
-        player1_board.setCellButton(coordX: 9, coordY: 9, __button: button9x9)
-        for i in 0...9
-        {
-            for k in 0...9
-            {
-                player1_board.setCellIsBoat(coordX: i, coordY: k,_isboat: false)
-            }
-        }
-        
-        
+        self.informationLabelOutlet.stringValue="Set board with 4 cells"
+         start_button_outlet.isEnabled=false
+        createButton(playerBoard: player1_board,index: 0,_self: true)
+        createButton(playerBoard: player2_board,index: 400,_self: false)
+        //player1_board.setCellIsBoat(coordX: 5, coordY: 5, _isboat: true)
+        print(player1_board.array[1][1].isBoat)
+        setBoardCellsRandom(amount: 4)
+        setBoardCellsRandom(amount: 3)
+        setBoardCellsRandom(amount: 3)
+        setBoardCellsRandom(amount: 2)
+        setBoardCellsRandom(amount: 2)
+        setBoardCellsRandom(amount: 2)
+        setBoardCellsRandom(amount: 1)
+        setBoardCellsRandom(amount: 1)
+        setBoardCellsRandom(amount: 1)
+        setBoardCellsRandom(amount: 1)
     }
     
   
@@ -243,49 +81,469 @@ class ViewController: NSViewController {
         
         return (_Tag/10,_Tag%10);
     }
-
+    var isClickSuccesfull:Bool = true
+    var isReadyBoat:Bool = false
+    var counter:Int=0
+    func setBoardCells(amount:Int,_ button: NSButton)->Void
+    {
+        let (X,Y) = transferTag(_Tag: button.tag)
+        if(!player1_board.getCell(X: X, Y: Y).getIsBoat() && isClickSuccesfull){
+        
+        
+        if(step==0 && !player1_board.isBoatNear(coordX: X, coordY: Y,CoordName: "XY+",_amount: amount,_playboard: player1_board).0){
+            player1_board.setCellIsNewCell(coordX: X, coordY: Y, _isNewCell: true)
+            player1_board.setCellIsBoat(coordX: X, coordY: Y, _isboat: true)
+            player1_board.setBoatCell(_amount: amount, _cell: player1_board.getCell(X: X, Y: Y), XY: (X,Y))
+            isClickSuccesfull=false
+            if(amount==1)
+            {
+                isReadyBoat=true
+            }
+        }
+        else if (step==1 && !player1_board.getCell(X: X, Y: Y).getIsBoat() && amount>1)
+        {
+            boat=player1_board.isBoatNear(coordX: X, coordY: Y,CoordName: "XY",_amount:amount,_playboard: player1_board)
+            if(boat.0)
+            {
+               // player1_board.setCellIsBoat(coordX: X, coordY: Y, _isboat: true)
+                //isClickSuccesfull=false
+                if(player1_board.isBoatNear(coordX: X, coordY: Y,CoordName: boat.1, _amount: amount,_playboard: player1_board).0)
+                {
+                    isClickSuccesfull=false
+                    isReadyBoat=true
+                }
+            }
+            
+        }
+        else
+        {
+            print("Nie udalo sie setBoardCells counter= \(counter),    step = \(step)  amount=\(amount)")
+        }
+            if(!isClickSuccesfull)
+            {
+         
+               // print("SDSDSSDSDSDSDSDSDDSDSDSDSSDDSD")
+                isClickSuccesfull=true
+                 step=step+1
+            }
+            if(isReadyBoat)
+            {
+                step=0
+                counter=counter+1
+                isReadyBoat=false
+            }
+        }
+       // isClickSuccesfull=true
+      //  isReadyBoat=false
+    }
+    
+    func setBoardCellsRandom(amount:Int)->Void
+    {
+        var tmpArray:[[Bool]] = Array(repeating: Array(repeating: false, count: 10), count: 10)
+        var X:Int!
+        var Y:Int!
+        var _step:Int=0
+        var stepOfRandom:Int=0
+        while _step<2 {
+            if(_step==0){
+                var isOK:Bool = true
+                while isOK {
+                X = getRandomNumber(n:9)
+                Y = getRandomNumber(n:9)
+                if !tmpArray[X][Y]
+                {
+                    print("Generated X = \(X)   Y = \(Y)")
+                    tmpArray[X][Y]=true
+                    isOK=false
+                }
+                }
+            }
+            else if (_step==1 && amount>1)
+            {
+                switch stepOfRandom
+                {
+                case 0:
+                    X=X+1
+                case 1:
+                    X=X-2
+                case 2:
+                    X=X+1
+                    Y=Y+1
+                case 3:
+                    Y=Y-2
+                    stepOfRandom=0
+                default:
+                    print("StepOfRandom Error")
+                }
+            }
+            if(!player2_board.getCell(X: X, Y: Y).getIsBoat() && isClickSuccesfull){
+                
+                if(_step==0 && !player2_board.isBoatNear(coordX: X, coordY: Y,CoordName: "XY+",_amount: amount,_playboard: player2_board).0){
+                    player2_board.setCellIsBoat(coordX: X, coordY: Y, _isboat: true)
+                    player2_board.setCellIsNewCell(coordX: X, coordY: Y, _isNewCell: true)
+                    player2_board.setBoatCell(_amount: amount, _cell: player2_board.getCell(X: X, Y: Y),XY:(X,Y))
+                    isClickSuccesfull=false
+                    if(amount==1)
+                    {
+                        isReadyBoat=true
+                        tmpArray.removeAll()
+                        _step=_step+1
+                    }
+                }
+                else if (_step==1 && !player2_board.getCell(X: X, Y: Y).getIsBoat() && amount>1)
+                {
+                    boat=player2_board.isBoatNear(coordX: X, coordY: Y,CoordName: "XY",_amount:amount,_playboard: player2_board)
+                    if(boat.0)
+                    {
+                        // player1_board.setCellIsBoat(coordX: X, coordY: Y, _isboat: true)
+                        isClickSuccesfull=false
+                        if(player2_board.isBoatNear(coordX: X, coordY: Y,CoordName: boat.1, _amount: amount,_playboard: player2_board).0)
+                        {
+                          //  player2_board.setCellIsNewCell(coordX: tmpXY.0, coordY: tmpXY.1, _isNewCell: false)
+                            
+                            isClickSuccesfull=false
+                            isReadyBoat=true
+                            stepOfRandom=0
+                            
+                        }
+                    }
+                    else
+                    {
+                        stepOfRandom=stepOfRandom+1
+                    }
+                    
+                }
+                else
+                {
+                    print("Nie udalo sie setBoardCellsRandom counter= \(counter),    step = \(step)")
+                }
+                if(!isClickSuccesfull)
+                {
+                    isClickSuccesfull=true
+                 //   print("STEPA STEPA \(_step)")
+                    _step=_step+1
+                }
+                if(isReadyBoat)
+                {
+                   // _step=0
+                    //counter=counter+1
+                    isReadyBoat=false
+                }
+            }
+        }
+    }
     @IBOutlet weak var buttons: NSButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     var boat:(Bool,String)!
-    @IBAction func ddd(_ sender: NSButton) {
-        let (X,Y) = transferTag(_Tag: sender.tag)
-        
-        if(step==0){
-            player1_board.setCellIsBoat(coordX: X, coordY: Y, _isboat: true)
-            step=step+1
-            break
+    var counterInGame:Int = 0
+    @objc func Game(sender:NSButton)->Void {
+        switch counter {
+        case 0:
+            setBoardCells(amount: 4, sender)
+            counterInGame=counterInGame+1
+            if(counterInGame==2){
+            self.informationLabelOutlet.stringValue="Set first board with 3 cells"
+                counterInGame=0
             }
-        else if (step==1)
-        {
-                boat=player1_board.isBoatNear(coordX: X, coordY: Y,CoordName: "XY")
-            if(boat.0)
-            {
-                player1_board.setCellIsBoat(coordX: X, coordY: Y, _isboat: true)
-                step=step+1
-                break
+        case 1:
+            setBoardCells(amount: 3, sender)
+            counterInGame=counterInGame+1
+            if(counterInGame==2){
+                self.informationLabelOutlet.stringValue="Set second board with 3 cells"
+                counterInGame=0
             }
-        
+        case 2:
+            setBoardCells(amount: 3, sender)
+            counterInGame=counterInGame+1
+            if(counterInGame==2){
+                self.informationLabelOutlet.stringValue="Set first board with 2 cells"
+                counterInGame=0
+            }
+        case 3:
+            setBoardCells(amount: 2, sender)
+            counterInGame=counterInGame+1
+            if(counterInGame==2){
+                self.informationLabelOutlet.stringValue="Set second board with 2 cells"
+                counterInGame=0
+            }
+        case 4:
+            setBoardCells(amount: 2, sender)
+            counterInGame=counterInGame+1
+            if(counterInGame==2){
+                self.informationLabelOutlet.stringValue="Set third board with 2 cells"
+                counterInGame=0
+            }
+        case 5:
+            setBoardCells(amount: 2, sender)
+            counterInGame=counterInGame+1
+            if(counterInGame==2){
+              self.informationLabelOutlet.stringValue="Set first board with 1 cell"
+                counterInGame=0
+            }
+        case 6:
+            setBoardCells(amount: 1, sender)
+            
+                self.informationLabelOutlet.stringValue="Set second board with 1 cell"
+            
+        case 7:
+            setBoardCells(amount: 1, sender)
+            
+                self.informationLabelOutlet.stringValue="Set third board with 1 cell"
+                counterInGame=0
+        case 8:
+            setBoardCells(amount: 1, sender)
+                self.informationLabelOutlet.stringValue="Set fourth board with 1 cell"
+            
+        case 9:
+            setBoardCells(amount: 1, sender)
+            self.informationLabelOutlet.stringValue="Game started, your turn!!!!!!!!!!!!"
+            isGameStarted=true
+        default:
+            print("Blad")
         }
-        if(step==2)
-        {
-            if(step==2 && player1_board.isBoatNear(coordX: X, coordY: Y,CoordName: boat.1).0)
-            {
-                player1_board.setCellIsBoat(coordX: X, coordY: Y, _isboat: true)
-                step=step+1
-                break
+       // setBoardCells(amount: 2, sender)
+    }
+    var randomX:Int = 0
+    var randomY:Int = 0
+    
+    func getRandomNumbers()->Void {
+        var isOK:Bool = true
+        while isOK {
+            randomX = getRandomNumber(n: 10)
+            randomY = getRandomNumber(n: 10)
+            print("BUUUGG HEREEEE")
+            if (!randomHelperArray[randomX][randomY]){
+                randomHelperArray[randomX][randomY]=true
+                isOK=false
             }
         }
     }
+    func DisableAllButtons()->Void
+    {
+        for i in 0...9
+        {
+            for k in 0...9
+            {
+                player1_board.getCell(X: i, Y: k).button.isEnabled=false
+                player2_board.getCell(X: i, Y: k).button.isEnabled=false
+            }
+        }
+    }
+    func isGameOver()->(Bool,String)
+    {
+       if (player1_board.isAllCellsAreDead())
+       {
+        DisableAllButtons()
+        return (true,"Opponent WIN")
+        }
+        if (player2_board.isAllCellsAreDead())
+        {
+            DisableAllButtons()
+             return (true,"YOU WIN")
+        }
+        return (false,"N")
+    }
+    @objc func AttackButton(sender:NSButton)->Void {
+        
+        let (X,Y) = transferTag(_Tag: sender.tag)
+        if(!playerHelperArray[X][Y] && isGameStarted)
+        {
+            if(!player2_board.attackCell(coordX: X,coordY: Y)){
+            print("Attack Player board 1 : X \(X) , Y: \(Y)")
+            playerHelperArray[X][Y]=true
+            var isOK:Bool = true
+            if (isRandom){
+            getRandomNumbers()
+            AttackByRival()
+            }
+            else
+            {
+                print("ATTACK HERE step = \(attack_step)")
+                AttackByRival()
+            }
+        }
+        
+        }
+        var isGO:(Bool,String) = isGameOver()
+        if(isGO.0)
+        {
+            informationLabelOutlet.stringValue=isGO.1
+        }
+        else
+        {
+        getInfoToLabel()
+        }
+    }
+    var attack_step:Int  = 0
+    var isRandom:Bool = true
+    var isHitByFirst:Bool = false
+    var CoordNameRandom:String = ""
+    var succedAtacck:Bool = false
+    func AttackByRival()->Void
+    {
+        
+        switch attack_step
+        {
+        case 0:
+            if (randomX<10 && randomX >= 0 && randomY<10 && randomY>=0) {
+            let attack = player1_board.attackCell(coordX: randomX, coordY: randomY)
+            print("Attack Player board 2 : X \(randomX) , Y: \(randomY) attack step = \(attack_step)")
+            randomHelperArray[randomX][randomY]=true
+            if(attack)
+            {
+                isRandom=false
+                attack_step=attack_step+1
+                AttackByRival()
+            }
+            }
+        case 1:
+            isRandom=false
+            randomX=randomX+1
+            if (randomX<10 && randomX >= 0 && randomY<10 && randomY>=0 && !randomHelperArray[randomX][randomY]) {
+            let attack = player1_board.attackCell(coordX: randomX, coordY: randomY)
+                print("Attack Player board 2 : X \(randomX) , Y: \(randomY) attack step = \(attack_step)")
+            randomHelperArray[randomX][randomY]=true
+            if(!attack)
+            {
+            attack_step=attack_step+1
+            }
+            else
+            {
+                searchAttackByRival(coords: [(randomX+1,randomY),(randomX+2,randomY)])
+                attack_step=attack_step+1
+            }
+            }
+            else
+            {
+                attack_step=attack_step+1
+                AttackByRival()
+            }
+        case 2:
+            isRandom=false
+            randomX=randomX-2
+            if (randomX<10 && randomX >= 0 && randomY<10 && randomY>=0 && !randomHelperArray[randomX][randomY]) {
+            let attack = player1_board.attackCell(coordX: randomX, coordY: randomY)
+                print("Attack Player board 2 : X \(randomX) , Y: \(randomY) attack step = \(attack_step)")
+            randomHelperArray[randomX][randomY]=true
+            if(!attack)
+            {
+                attack_step=attack_step+1
+            }
+            else
+            {
+                searchAttackByRival(coords: [(randomX-1,randomY),(randomX-2,randomY)])
+                attack_step=attack_step+1
+            }
+            }
+            else
+            {
+                attack_step=attack_step+1
+                AttackByRival()
+            }
+        case 3:
+            isRandom=false
+            randomX=randomX+1
+            randomY=randomY+1
+             if (randomX<10 && randomX >= 0 && randomY<10 && randomY>=0 && !randomHelperArray[randomX][randomY]) {
+            let attack = player1_board.attackCell(coordX: randomX, coordY: randomY)
+                print("Attack Player board 2 : X \(randomX) , Y: \(randomY) attack step = \(attack_step)")
+            randomHelperArray[randomX][randomY]=true
+            if(!attack)
+            {
+                attack_step=attack_step+1
+            }
+            else
+            {
+                searchAttackByRival(coords: [(randomX,randomY+1),(randomX,randomY+2)])
+                attack_step=attack_step+1
+            }
+            }
+             else
+             {
+                attack_step=attack_step+1
+                AttackByRival()
+            }
+            
+        case 4:
+            isRandom=false
+            randomY=randomY-2
+            if (randomX<10 && randomX >= 0 && randomY<10 && randomY>=0 && !randomHelperArray[randomX][randomY]) {
+            let attack = player1_board.attackCell(coordX: randomX, coordY: randomY)
+                print("Attack Player board 2 : X \(randomX) , Y: \(randomY) attack step = \(attack_step)")
+            randomHelperArray[randomX][randomY]=true
+            if(!attack)
+            {
+                attack_step=0
+                isRandom=true
+            }
+            else
+            {
+                searchAttackByRival(coords: [(randomX,randomY-1),(randomX,randomY-2)])
+                attack_step=0
+                isRandom=true
+            }
+            }
+            else
+            {
+                attack_step=0
+                isRandom=true
+                getRandomNumbers()
+                AttackByRival()
+            }
+        default:
+            print("Attack error")
+        }
+        
+    }
+    var attackCoords:[(Int,Int)]!
+    var isSearchAttackTurnOn:Bool = false
+    func searchAttackByRival(coords:[(Int,Int)])->Void
+    {
+        attackCoords=coords
+        for ind in attackCoords {
+            if(ind.0<10 && ind.0 >= 0 && ind.1<10 && ind.1>=0)
+            {
+            randomHelperArray[ind.0][ind.1]=true
+            print("Attack Player board 2 : X \(ind.0) , Y: \(ind.1) attack step = \(attack_step)")
+            if(!player1_board.attackCell(coordX: ind.0, coordY: ind.1))
+            {
+                break
+            }
+            }
+            
+        }
+    }
+    func getRandomNumber(n:Int)->Int
+    {
+        return Int(arc4random_uniform(UInt32(n)))
+    }
+    var playerHelperArray:[[Bool]] = Array(repeating: Array(repeating: false, count: 10), count: 10)
+    func getRandomPlayer()->Void
+    {
+     
+        var randomX:Int = getRandomNumber(n: 9)
+        var randomY:Int = getRandomNumber(n: 9)
+        player2_board.setCellIsBoat(coordX: randomX, coordY: randomY, _isboat: true)
+    }
+    func getInfoToLabel()->Void
+    {
+        var info:[String]=player1_board.getInfoAboutBoats()+player2_board.getInfoAboutBoats()
+        var string:String = ""
+        for ind in info
+        {
+            string.append(ind)
+        }
+        informationLabelOutlet.stringValue=string
+    }
+    
     
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
         }
     }
-
-
 }
 
