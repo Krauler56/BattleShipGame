@@ -7,8 +7,8 @@
 //
 
 import Cocoa
-let player1_board : Board  = Board()
-let player2_board : Board  = Board()
+var player1_board : Board  = Board()
+var player2_board : Board  = Board()
 var isPlayer1Turn:Bool = false
 var isPlayer2Turn:Bool = false
 var isGameStarted:Bool = false
@@ -245,57 +245,57 @@ class ViewController: NSViewController {
             setBoardCells(amount: 4, sender)
             counterInGame=counterInGame+1
             if(counterInGame==2){
-            self.informationLabelOutlet.stringValue="Set first board with 3 cells"
+            self.informationLabelOutlet.stringValue="Set first boad with 3 cells"
                 counterInGame=0
             }
         case 1:
             setBoardCells(amount: 3, sender)
             counterInGame=counterInGame+1
             if(counterInGame==2){
-                self.informationLabelOutlet.stringValue="Set second board with 3 cells"
+                self.informationLabelOutlet.stringValue="Set second boad with 3 cells"
                 counterInGame=0
             }
         case 2:
             setBoardCells(amount: 3, sender)
             counterInGame=counterInGame+1
             if(counterInGame==2){
-                self.informationLabelOutlet.stringValue="Set first board with 2 cells"
+                self.informationLabelOutlet.stringValue="Set first boad with 2 cells"
                 counterInGame=0
             }
         case 3:
             setBoardCells(amount: 2, sender)
             counterInGame=counterInGame+1
             if(counterInGame==2){
-                self.informationLabelOutlet.stringValue="Set second board with 2 cells"
+                self.informationLabelOutlet.stringValue="Set second boad with 2 cells"
                 counterInGame=0
             }
         case 4:
             setBoardCells(amount: 2, sender)
             counterInGame=counterInGame+1
             if(counterInGame==2){
-                self.informationLabelOutlet.stringValue="Set third board with 2 cells"
+                self.informationLabelOutlet.stringValue="Set third boad with 2 cells"
                 counterInGame=0
             }
         case 5:
             setBoardCells(amount: 2, sender)
             counterInGame=counterInGame+1
             if(counterInGame==2){
-              self.informationLabelOutlet.stringValue="Set first board with 1 cell"
+              self.informationLabelOutlet.stringValue="Set first boad with 1 cell"
                 counterInGame=0
             }
         case 6:
             setBoardCells(amount: 1, sender)
             
-                self.informationLabelOutlet.stringValue="Set second board with 1 cell"
+                self.informationLabelOutlet.stringValue="Set second boad with 1 cell"
             
         case 7:
             setBoardCells(amount: 1, sender)
             
-                self.informationLabelOutlet.stringValue="Set third board with 1 cell"
+                self.informationLabelOutlet.stringValue="Set third bord with 1 cell"
                 counterInGame=0
         case 8:
             setBoardCells(amount: 1, sender)
-                self.informationLabelOutlet.stringValue="Set fourth board with 1 cell"
+                self.informationLabelOutlet.stringValue="Set fourth boad with 1 cell"
             
         case 9:
             setBoardCells(amount: 1, sender)
@@ -314,7 +314,6 @@ class ViewController: NSViewController {
         while isOK {
             randomX = getRandomNumber(n: 10)
             randomY = getRandomNumber(n: 10)
-            print("BUUUGG HEREEEE")
             if (!randomHelperArray[randomX][randomY]){
                 randomHelperArray[randomX][randomY]=true
                 isOK=false
@@ -337,11 +336,13 @@ class ViewController: NSViewController {
        if (player1_board.isAllCellsAreDead())
        {
         DisableAllButtons()
+        start_button_outlet.isEnabled=true
         return (true,"Opponent WIN")
         }
         if (player2_board.isAllCellsAreDead())
         {
             DisableAllButtons()
+            start_button_outlet.isEnabled=true
              return (true,"YOU WIN")
         }
         return (false,"N")
@@ -370,6 +371,7 @@ class ViewController: NSViewController {
         var isGO:(Bool,String) = isGameOver()
         if(isGO.0)
         {
+          
             informationLabelOutlet.stringValue=isGO.1
         }
         else
@@ -530,7 +532,7 @@ class ViewController: NSViewController {
     }
     func getInfoToLabel()->Void
     {
-        var info:[String]=player1_board.getInfoAboutBoats()+player2_board.getInfoAboutBoats()
+        var info:[String]=["Your ships \n"]+player1_board.getInfoAboutBoats()+["Opponent's ships \n"]+player2_board.getInfoAboutBoats()
         var string:String = ""
         for ind in info
         {

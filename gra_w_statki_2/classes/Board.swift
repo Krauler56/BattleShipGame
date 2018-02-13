@@ -56,63 +56,63 @@ class Board {
                     if(!board.getCell(X: ind.0-1, Y: ind.1-1).getIsBorder())
                     {
                     board.getCell(X: ind.0-1, Y: ind.1-1).setIsDead()
-                        if (board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
+                        if (!board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
                         randomHelperArray[ind.0-1][ind.1-1]=true
                         }
                     }
                     if(!board.getCell(X: ind.0+1, Y: ind.1).getIsBorder())
                     {
                         board.getCell(X: ind.0+1, Y: ind.1).setIsDead()
-                        if (board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
+                        if (!board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
                         randomHelperArray[ind.0+1][ind.1]=true
                         }
                     }
                     if(!board.getCell(X: ind.0-1, Y: ind.1+1).getIsBorder())
                     {
                         board.getCell(X: ind.0-1, Y: ind.1+1).setIsDead()
-                        if (board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
+                        if (!board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
                         randomHelperArray[ind.0-1][ind.1+1]=true
                         }
                     }
                     if(!board.getCell(X: ind.0, Y: ind.1-1).getIsBorder())
                     {
                         board.getCell(X: ind.0, Y: ind.1-1).setIsDead()
-                        if (board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
+                        if (!board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
                         randomHelperArray[ind.0][ind.1-1]=true
                         }
                     }
                     if(!board.getCell(X: ind.0-1, Y: ind.1).getIsBorder())
                     {
                         board.getCell(X: ind.0-1, Y: ind.1).setIsDead()
-                        if (board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
+                        if (!board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
                         randomHelperArray[ind.0-1][ind.1]=true
                         }
                     }
                     if(!board.getCell(X: ind.0, Y: ind.1+1).getIsBorder())
                     {
                         board.getCell(X: ind.0, Y: ind.1+1).setIsDead()
-                        if (board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
+                        if (!board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
                         randomHelperArray[ind.0][ind.1+1]=true
                         }
                     }
                     if(!board.getCell(X: ind.0, Y: ind.1-1).getIsBorder())
                     {
                         board.getCell(X: ind.0, Y: ind.1-1).setIsDead()
-                        if (board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
+                        if (!board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
                         randomHelperArray[ind.0][ind.1-1]=true
                         }
                     }
                     if(!board.getCell(X: ind.0+1, Y: ind.1+1).getIsBorder())
                     {
                         board.getCell(X: ind.0+1, Y: ind.1+1).setIsDead()
-                        if (board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
+                        if (!board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
                         randomHelperArray[ind.0+1][ind.1+1]=true
                         }
                     }
                     if(!board.getCell(X: ind.0+1, Y: ind.1-1).getIsBorder())
                     {
                         board.getCell(X: ind.0+1, Y: ind.1-1).setIsDead()
-                        if (board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
+                        if (!board.getCell(X: ind.0-1, Y: ind.1-1).isPlayer2Cell){
                         randomHelperArray[ind.0+1][ind.1-1]=true
                         }
                     }
@@ -124,7 +124,19 @@ class Board {
         }
         func getInfoAboutBoat()->String
         {
-            return " "+String(count)+" Cell boat: "+String(getInfoAboutIsDeadsCells())+" / "+String(count)+"\n"
+            var info:String = ""
+            var deadCells:Int = getInfoAboutIsDeadsCells()
+            for ind in 0..<deadCells
+            {
+                info.append("❌")
+            }
+            var aliveCells:Int = count-deadCells
+            for ind in 0..<aliveCells
+            {
+             
+                info.append("✅")
+            }
+            return " "+String(count)+" Cell boat: "+info+"\n"
         }
     }
     func getInfoAboutBoats()->[String]
@@ -154,7 +166,7 @@ class Board {
     var boat1_4:Boat = Boat()
     var emptyCell = Cell(_isBoat:false, _isDead: false,_isBorder:true, _isNewCell: false,_isPlayer2Cell:false)
     //var array : [[Cell]] ;
-    let array:[[Cell]] = (0...9).map { _ in (0...9).map { _ in Cell(_isBoat: false,_isDead:false,_isBorder:false,_isNewCell: false,_isPlayer2Cell:false) } }
+    var array:[[Cell]] = (0...9).map { _ in (0...9).map { _ in Cell(_isBoat: false,_isDead:false,_isBorder:false,_isNewCell: false,_isPlayer2Cell:false) } }
     init ()
     {
         boat4.board=self

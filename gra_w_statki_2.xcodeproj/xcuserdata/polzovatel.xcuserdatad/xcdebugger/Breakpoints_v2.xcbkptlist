@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.040539"
+            timestampString = "540218465.050596"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "6"
@@ -119,11 +119,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.041241"
+            timestampString = "540218465.05091"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "191"
-            endingLineNumber = "191"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
             landmarkName = "setCellButton(coordX:coordY:__button:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -135,11 +135,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.042286"
+            timestampString = "540218465.05176"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "279"
-            endingLineNumber = "279"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -151,11 +151,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.043011"
+            timestampString = "540218465.052444"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "403"
-            endingLineNumber = "403"
+            startingLineNumber = "415"
+            endingLineNumber = "415"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -167,11 +167,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.043699"
+            timestampString = "540218465.053321"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "414"
-            endingLineNumber = "414"
+            startingLineNumber = "426"
+            endingLineNumber = "426"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -183,11 +183,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.044313"
+            timestampString = "540218465.054317"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "229"
-            endingLineNumber = "229"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
             landmarkName = "setBoatCell(_amount:_cell:XY:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -199,11 +199,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.044961"
+            timestampString = "540218465.055253"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
             landmarkName = "setBoatCell(_amount:_cell:XY:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -215,7 +215,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.04556"
+            timestampString = "540218465.058087"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "252"
@@ -231,7 +231,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.04619"
+            timestampString = "540218465.058439"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
@@ -247,7 +247,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.046687"
+            timestampString = "540218465.05875"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
@@ -263,7 +263,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.047146"
+            timestampString = "540218465.059057"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "106"
@@ -279,7 +279,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.047605"
+            timestampString = "540218465.059291"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "280"
@@ -295,11 +295,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.047994"
+            timestampString = "540218465.059512"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "413"
-            endingLineNumber = "413"
+            startingLineNumber = "425"
+            endingLineNumber = "425"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -311,7 +311,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.048952"
+            timestampString = "540218465.060418"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "195"
@@ -327,7 +327,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.0495369"
+            timestampString = "540218465.06064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -343,11 +343,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.0501"
+            timestampString = "540218465.060858"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
             landmarkName = "setBoatCell(_amount:_cell:XY:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -359,7 +359,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Cell.swift"
-            timestampString = "540158211.05083"
+            timestampString = "540218465.061658"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -375,11 +375,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.050971"
+            timestampString = "540218465.061777"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
             landmarkName = "setCellIsBoat(coordX:coordY:_isboat:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -391,11 +391,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.051585"
+            timestampString = "540218465.062605"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "203"
-            endingLineNumber = "203"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
             landmarkName = "setCellIsBoat(coordX:coordY:_isboat:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -407,11 +407,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.052646"
+            timestampString = "540218465.063406"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
             landmarkName = "setCellIsBoat(coordX:coordY:_isboat:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -423,7 +423,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Cell.swift"
-            timestampString = "540158211.053416"
+            timestampString = "540218465.064064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
@@ -439,11 +439,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.053674"
+            timestampString = "540218465.064163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
             landmarkName = "init()"
             landmarkType = "7">
          </BreakpointContent>
@@ -455,11 +455,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.054426"
+            timestampString = "540218465.064779"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "402"
-            endingLineNumber = "402"
+            startingLineNumber = "405"
+            endingLineNumber = "405"
             landmarkName = "AttackByRival()"
             landmarkType = "7">
          </BreakpointContent>
@@ -471,11 +471,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.055032"
+            timestampString = "540218465.064984"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "446"
-            endingLineNumber = "446"
+            startingLineNumber = "449"
+            endingLineNumber = "449"
             landmarkName = "AttackByRival()"
             landmarkType = "7">
          </BreakpointContent>
@@ -487,11 +487,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.0554841"
+            timestampString = "540218465.065185"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "411"
-            endingLineNumber = "411"
+            startingLineNumber = "414"
+            endingLineNumber = "414"
             landmarkName = "AttackByRival()"
             landmarkType = "7">
          </BreakpointContent>
@@ -503,11 +503,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.055894"
+            timestampString = "540218465.065387"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "424"
-            endingLineNumber = "424"
+            startingLineNumber = "427"
+            endingLineNumber = "427"
             landmarkName = "AttackByRival()"
             landmarkType = "7">
          </BreakpointContent>
@@ -519,11 +519,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.056242"
+            timestampString = "540218465.065585"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "470"
-            endingLineNumber = "470"
+            startingLineNumber = "473"
+            endingLineNumber = "473"
             landmarkName = "AttackByRival()"
             landmarkType = "7">
          </BreakpointContent>
@@ -535,11 +535,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.0567501"
+            timestampString = "540218465.065783"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "365"
-            endingLineNumber = "365"
+            startingLineNumber = "367"
+            endingLineNumber = "367"
             landmarkName = "AttackButton(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -551,11 +551,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.05718"
+            timestampString = "540218465.065981"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "354"
-            endingLineNumber = "354"
+            startingLineNumber = "356"
+            endingLineNumber = "356"
             landmarkName = "AttackButton(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -567,39 +567,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.057642"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "503"
-            endingLineNumber = "503"
-            landmarkName = "searchAttackByRival(coords:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.0583301"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "511"
-            endingLineNumber = "511"
-            landmarkName = "searchAttackByRival(coords:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.0587471"
+            timestampString = "540218465.0661761"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "506"
@@ -614,12 +582,44 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.059112"
+            filePath = "gra_w_statki_2/ViewController.swift"
+            timestampString = "540218465.066372"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
+            startingLineNumber = "514"
+            endingLineNumber = "514"
+            landmarkName = "searchAttackByRival(coords:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/ViewController.swift"
+            timestampString = "540218465.066605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "509"
+            endingLineNumber = "509"
+            landmarkName = "searchAttackByRival(coords:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.066817"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "getInfoAboutBoats()"
             landmarkType = "7">
          </BreakpointContent>
@@ -631,7 +631,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.059826"
+            timestampString = "540218465.0674911"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "11"
@@ -679,11 +679,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.060362"
+            timestampString = "540218465.068127"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "224"
-            endingLineNumber = "224"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
             landmarkName = "setBoatCell(_amount:_cell:XY:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -695,11 +695,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.0608881"
+            timestampString = "540218465.0687619"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "421"
-            endingLineNumber = "421"
+            startingLineNumber = "433"
+            endingLineNumber = "433"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -711,11 +711,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.061422"
+            timestampString = "540218465.069502"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "454"
-            endingLineNumber = "454"
+            startingLineNumber = "466"
+            endingLineNumber = "466"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -727,11 +727,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.0619431"
+            timestampString = "540218465.070328"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "484"
-            endingLineNumber = "484"
+            startingLineNumber = "496"
+            endingLineNumber = "496"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -743,11 +743,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.062454"
+            timestampString = "540218465.071261"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "513"
-            endingLineNumber = "513"
+            startingLineNumber = "525"
+            endingLineNumber = "525"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -759,11 +759,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.0629489"
+            timestampString = "540218465.072248"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "509"
-            endingLineNumber = "509"
+            startingLineNumber = "521"
+            endingLineNumber = "521"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -775,11 +775,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.063453"
+            timestampString = "540218465.072984"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "480"
-            endingLineNumber = "480"
+            startingLineNumber = "492"
+            endingLineNumber = "492"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -791,11 +791,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.063952"
+            timestampString = "540218465.0736409"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "450"
-            endingLineNumber = "450"
+            startingLineNumber = "462"
+            endingLineNumber = "462"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -807,11 +807,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.06445"
+            timestampString = "540218465.0742559"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "423"
-            endingLineNumber = "423"
+            startingLineNumber = "435"
+            endingLineNumber = "435"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -823,11 +823,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.064958"
+            timestampString = "540218465.074904"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "419"
-            endingLineNumber = "419"
+            startingLineNumber = "431"
+            endingLineNumber = "431"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -839,11 +839,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.065454"
+            timestampString = "540218465.07552"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "481"
-            endingLineNumber = "481"
+            startingLineNumber = "493"
+            endingLineNumber = "493"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -855,11 +855,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.066028"
+            timestampString = "540218465.0761321"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "245"
-            endingLineNumber = "245"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
             landmarkName = "setBoatCell(_amount:_cell:XY:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -871,11 +871,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.066545"
+            timestampString = "540218465.076743"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "249"
-            endingLineNumber = "249"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
             landmarkName = "setBoatCell(_amount:_cell:XY:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -887,11 +887,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.0688061"
+            timestampString = "540218465.077352"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
             landmarkName = "setBoatCell(_amount:_cell:XY:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -903,11 +903,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.069553"
+            timestampString = "540218465.077963"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "230"
-            endingLineNumber = "230"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
             landmarkName = "setBoatCell(_amount:_cell:XY:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -919,11 +919,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.070214"
+            timestampString = "540218465.078584"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "234"
-            endingLineNumber = "234"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
             landmarkName = "setBoatCell(_amount:_cell:XY:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -935,7 +935,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.07085"
+            timestampString = "540218465.079217"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "96"
@@ -951,7 +951,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.071349"
+            timestampString = "540218465.079427"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "95"
@@ -967,11 +967,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.0718139"
+            timestampString = "540218465.079618"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "418"
-            endingLineNumber = "418"
+            startingLineNumber = "430"
+            endingLineNumber = "430"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -983,11 +983,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.072456"
+            timestampString = "540218465.0802211"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "449"
-            endingLineNumber = "449"
+            startingLineNumber = "461"
+            endingLineNumber = "461"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -999,11 +999,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.073076"
+            timestampString = "540218465.080824"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "479"
-            endingLineNumber = "479"
+            startingLineNumber = "491"
+            endingLineNumber = "491"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1015,11 +1015,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.073696"
+            timestampString = "540218465.081417"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "508"
-            endingLineNumber = "508"
+            startingLineNumber = "520"
+            endingLineNumber = "520"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1031,7 +1031,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.074244"
+            timestampString = "540218465.082023"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "179"
@@ -1047,11 +1047,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.074584"
+            timestampString = "540218465.082198"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "411"
-            endingLineNumber = "411"
+            startingLineNumber = "423"
+            endingLineNumber = "423"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1063,11 +1063,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.075097"
+            timestampString = "540218465.082749"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "471"
-            endingLineNumber = "471"
+            startingLineNumber = "483"
+            endingLineNumber = "483"
             landmarkName = "isBoatNear(coordX:coordY:CoordName:_amount:_playboard:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1079,7 +1079,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.0755709"
+            timestampString = "540218465.083306"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "200"
@@ -1095,7 +1095,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.075755"
+            timestampString = "540218465.083442"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "114"
@@ -1111,7 +1111,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.0761451"
+            timestampString = "540218465.083913"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "107"
@@ -1127,7 +1127,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.076506"
+            timestampString = "540218465.0844229"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "100"
@@ -1143,7 +1143,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.076865"
+            timestampString = "540218465.084949"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
@@ -1159,7 +1159,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.077219"
+            timestampString = "540218465.085454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "79"
@@ -1175,7 +1175,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.07757"
+            timestampString = "540218465.085925"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "72"
@@ -1191,7 +1191,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/classes/Board.swift"
-            timestampString = "540158211.077969"
+            timestampString = "540218465.08649"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
@@ -1207,11 +1207,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.078351"
+            timestampString = "540218465.0871"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "370"
-            endingLineNumber = "370"
+            startingLineNumber = "372"
+            endingLineNumber = "372"
             landmarkName = "AttackButton(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1223,7 +1223,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.078512"
+            timestampString = "540218465.0873049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "339"
@@ -1239,39 +1239,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.078611"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "345"
-            endingLineNumber = "345"
-            landmarkName = "isGameOver()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.078696"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "373"
-            endingLineNumber = "373"
-            landmarkName = "AttackButton(sender:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.078795"
+            timestampString = "540218465.0874881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "347"
@@ -1287,11 +1255,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.07895"
+            timestampString = "540218465.0876679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "377"
-            endingLineNumber = "377"
+            startingLineNumber = "376"
+            endingLineNumber = "376"
             landmarkName = "AttackButton(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1303,11 +1271,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.079031"
+            timestampString = "540218465.087823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "378"
-            endingLineNumber = "378"
+            startingLineNumber = "349"
+            endingLineNumber = "349"
+            landmarkName = "isGameOver()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/ViewController.swift"
+            timestampString = "540218465.088004"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "380"
+            endingLineNumber = "380"
             landmarkName = "AttackButton(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1319,7 +1303,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gra_w_statki_2/ViewController.swift"
-            timestampString = "540158211.079168"
+            timestampString = "540218465.088159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "381"
+            endingLineNumber = "381"
+            landmarkName = "AttackButton(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/ViewController.swift"
+            timestampString = "540218465.0883141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -1358,6 +1358,322 @@
                   offsetFromSymbolStart = "4">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.0884629"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "getInfoAboutBoat()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.0891629"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "getInfoAboutBoat()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.0896159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "getInfoAboutBoat()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/ViewController.swift"
+            timestampString = "540218465.090054"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "createButton(playerBoard:index:_self:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.090155"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "getInfoAboutIsDeadsCells()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.090573"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "getInfoAboutIsDeadsCells()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.090974"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "getInfoAboutIsDeadsCells()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.091385"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "getInfoAboutIsDeadsCells()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.09179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "getInfoAboutIsDeadsCells()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.09219"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "getInfoAboutIsDeadsCells()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.092609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getInfoAboutIsDeadsCells()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.093004"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "getInfoAboutIsDeadsCells()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/classes/Board.swift"
+            timestampString = "540218465.093397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "Board"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "variable initialization expression of gra_w_statki_2.Board.array : Swift.Array&lt;Swift.Array&lt;gra_w_statki_2.Cell&gt;&gt;"
+                  moduleName = "gra_w_statki_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polzovatel/Documents/gra_w_statki_2/gra_w_statki_2/classes/Board.swift"
+                  timestampString = "540161852.134619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) -&gt; Swift.Array&lt;gra_w_statki_2.Cell&gt; in variable initialization expression of gra_w_statki_2.Board.array : Swift.Array&lt;Swift.Array&lt;gra_w_statki_2.Cell&gt;&gt;"
+                  moduleName = "gra_w_statki_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polzovatel/Documents/gra_w_statki_2/gra_w_statki_2/classes/Board.swift"
+                  timestampString = "540161852.1368999"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) -&gt; gra_w_statki_2.Cell in closure #1 (Swift.Int) -&gt; Swift.Array&lt;gra_w_statki_2.Cell&gt; in variable initialization expression of gra_w_statki_2.Board.array : Swift.Array&lt;Swift.Array&lt;gra_w_statki_2.Cell&gt;&gt;"
+                  moduleName = "gra_w_statki_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polzovatel/Documents/gra_w_statki_2/gra_w_statki_2/classes/Board.swift"
+                  timestampString = "540161852.1401711"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gra_w_statki_2.Board.array.getter : Swift.Array&lt;Swift.Array&lt;gra_w_statki_2.Cell&gt;&gt;"
+                  moduleName = "gra_w_statki_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polzovatel/Documents/gra_w_statki_2/gra_w_statki_2/classes/Board.swift"
+                  timestampString = "540161852.143963"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gra_w_statki_2.Board.array.setter : Swift.Array&lt;Swift.Array&lt;gra_w_statki_2.Cell&gt;&gt;"
+                  moduleName = "gra_w_statki_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polzovatel/Documents/gra_w_statki_2/gra_w_statki_2/classes/Board.swift"
+                  timestampString = "540161852.147604"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "98">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gra_w_statki_2.Board.init() -&gt; gra_w_statki_2.Board"
+                  moduleName = "gra_w_statki_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polzovatel/Documents/gra_w_statki_2/gra_w_statki_2/classes/Board.swift"
+                  timestampString = "540161852.1508"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "993">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gra_w_statki_2/ViewController.swift"
+            timestampString = "540218465.093803"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "start_button(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

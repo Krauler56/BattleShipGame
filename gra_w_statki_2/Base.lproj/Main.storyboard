@@ -722,7 +722,7 @@
                                 </buttonCell>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZC5-7d-OBb">
-                                <rect key="frame" x="905" y="0.0" width="352" height="624"/>
+                                <rect key="frame" x="879" y="0.0" width="352" height="604"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="DV4-An-Fw0">
                                     <font key="font" metaFont="system" size="22"/>
